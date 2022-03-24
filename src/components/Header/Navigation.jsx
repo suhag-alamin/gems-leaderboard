@@ -12,6 +12,9 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import logo from "../../images/logo.svg";
+import twitter from '../../images/twitter-icon.svg'
+import discord from '../../images/discord-icon.svg'
+import teligram from '../../images/teligram-icon.svg'
 import "./Header.css";
 
 // navbar
@@ -80,9 +83,29 @@ function Navigation(props) {
                 alignItems: "center",
               }}
             >
-              <Link to="/">
-                <img className="logo" src={logo} alt="" />
-              </Link>
+              <Box sx={{display: 'flex', alignItems: 'center', gap:4}}>
+                <Link to="/">
+                  <img className="logo" src={logo} alt="" />
+                </Link>
+                   {/* social links  */}
+                <Box sx={{display: 'flex', alignItems: 'center', gap:2}}>
+                  <Box sx={{backgroundColor:'#6A8EFF', padding:1, borderRadius:50, width:30, height:30, lineHeight:'10px', textAlign: 'center'}}>
+                    <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                      <img src={twitter} alt="" />
+                    </a>
+                  </Box>
+                  <Box sx={{backgroundColor:'#6A8EFF', padding:1, borderRadius:50, width:30, height:30, lineHeight:'10px', textAlign: 'center'}}>
+                    <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                      <img src={discord} alt="" />
+                    </a>
+                  </Box>
+                  <Box sx={{backgroundColor:'#6A8EFF', padding:1, borderRadius:50, width:30, height:30, lineHeight:'10px', textAlign: 'center'}}>
+                    <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                      <img src={teligram} alt="" />
+                    </a>
+                  </Box>
+                </Box>  
+              </Box>
 
               <Box sx={{ display: { xs: "none", md: "block" } }}>
                 <nav
