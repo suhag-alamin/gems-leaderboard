@@ -1,0 +1,5 @@
+.hero-section {
+  background: url(../../images/herosec-bg.svg) top no-repeat;
+  background-size: cover;
+  padding-bottom: 250px;
+}
