@@ -1,3 +1,23 @@
 .header-top {
   background: linear-gradient(270deg, #885bff 0.19%, #5977d6 100%);
 }
+
+/* navigation style  */
+.logo {
+  width: 100%;
+}
+.navbar a,
+.nav-link {
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-link {
+    color: #885bff;
+  }
+}

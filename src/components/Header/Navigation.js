@@ -1,5 +1,5 @@
 import MenuIcon from "@mui/icons-material/Menu";
-import { Container } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -27,41 +27,31 @@ function Navigation(props) {
     <Box sx={{ mt: 3, px: 2 }}>
       {/* mobile menu  */}
       <nav style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-        <NavHashLink smooth="true" className="nav-link" to="/home#home">
-          Home
-        </NavHashLink>
-
-        <Divider />
-
-        <NavHashLink smooth="true" className="nav-link" to="/home#services">
-          Services
-        </NavHashLink>
-        <Divider />
-
-        <NavHashLink smooth="true" className="nav-link" to="/home#portfolio">
-          Portfolio
-        </NavHashLink>
-        <Divider />
-
-        <NavHashLink smooth="true" className="nav-link" to="/home#skills">
-          Languages & Tools
-        </NavHashLink>
-
-        <Divider />
-        <NavHashLink smooth="true" className="nav-link" to="/home#blog">
-          Blog
-        </NavHashLink>
-
-        <Divider />
-
         <NavHashLink smooth="true" className="nav-link" to="/home#about">
-          About Me
+          About
         </NavHashLink>
 
         <Divider />
 
-        <NavHashLink smooth="true" className="nav-link" to="/home#contact">
-          Contact Me
+        <NavHashLink smooth="true" className="nav-link" to="/home#prizes">
+          Prizes{" "}
+        </NavHashLink>
+        <Divider />
+
+        <NavHashLink smooth="true" className="nav-link" to="/home#rules">
+          Rules
+        </NavHashLink>
+        <Divider />
+
+        <Divider />
+        <NavHashLink smooth="true" className="nav-link" to="/home#leaderBoard">
+          Leader board
+        </NavHashLink>
+
+        <Divider />
+
+        <NavHashLink smooth="true" className="nav-link" to="/home#how">
+          How
         </NavHashLink>
 
         <Divider />
@@ -77,7 +67,7 @@ function Navigation(props) {
       <CssBaseline />
       <AppBar
         position="inherit"
-        sx={{ bgcolor: "#1c272c", boxShadow: 2, py: 1 }}
+        sx={{ bgcolor: "rgba(29, 29, 55, 0.7)", boxShadow: 2, py: 1 }}
       >
         <Toolbar>
           {/* desktop menu  */}
@@ -97,62 +87,59 @@ function Navigation(props) {
               <Box sx={{ display: { xs: "none", md: "block" } }}>
                 <nav
                   className="navbar"
-                  style={{ display: "flex", alignItems: "center" }}
+                  style={{ display: "flex", alignItems: "center", gap: 4 }}
                 >
-                  <NavHashLink
-                    smooth="true"
-                    className="nav-link"
-                    to="/home#home"
-                  >
-                    Home
-                  </NavHashLink>
-
-                  <NavHashLink
-                    smooth="true"
-                    className="nav-link"
-                    to="/home#services"
-                  >
-                    Services
-                  </NavHashLink>
-
-                  <NavHashLink
-                    smooth="true"
-                    className="nav-link"
-                    to="/home#portfolio"
-                  >
-                    Portfolio
-                  </NavHashLink>
-
-                  <NavHashLink
-                    smooth="true"
-                    className="nav-link"
-                    to="/home#skills"
-                  >
-                    Languages & Tools
-                  </NavHashLink>
-
-                  <NavHashLink
-                    smooth="true"
-                    className="nav-link"
-                    to="/home#blog"
-                  >
-                    Blog
-                  </NavHashLink>
-
                   <NavHashLink
                     smooth="true"
                     className="nav-link"
                     to="/home#about"
                   >
-                    About Me
+                    About
                   </NavHashLink>
+
                   <NavHashLink
                     smooth="true"
                     className="nav-link"
-                    to="/home#contact"
+                    to="/home#prizes"
                   >
-                    Contact Me
+                    Prizes
                   </NavHashLink>
+
+                  <NavHashLink
+                    smooth="true"
+                    className="nav-link"
+                    to="/home#rules"
+                  >
+                    Rules
+                  </NavHashLink>
+
+                  <NavHashLink
+                    smooth="true"
+                    className="nav-link"
+                    to="/home#leaderBoard"
+                  >
+                    Leader board
+                  </NavHashLink>
+
+                  <NavHashLink
+                    smooth="true"
+                    className="nav-link"
+                    to="/home#how"
+                  >
+                    How
+                  </NavHashLink>
+                  <Button
+                    sx={{
+                      backgroundColor:
+                        "linear-gradient(270deg, #885BFF 0.19%, #5977D6 100%)",
+                      borderRadius: 50,
+                      marginLeft: 3,
+                      textTransform: "inherit",
+                    }}
+                    variant="contained"
+                  >
+                    Back to GEMS
+                  </Button>
                 </nav>
               </Box>
             </Box>

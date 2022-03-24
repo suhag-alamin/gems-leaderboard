@@ -10,9 +10,11 @@ const HeaderTop = () => {
         <Box
           sx={{
             display: "flex",
+            flexDirection: { xs: "column", md: "inherit" },
             justifyContent: "center",
             alignItems: "center",
-            gap: 4,
+            gap: { xs: 1, md: 4 },
+            textAlign: "center",
           }}
         >
           <Typography variant="subtitle1">
