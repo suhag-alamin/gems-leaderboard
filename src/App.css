@@ -1,0 +1,33 @@
+/* reset style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  padding: 0;
+}
+
+/* google font  */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background: url(./images/background.svg) center center;
+  background-size: cover;
+  color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
