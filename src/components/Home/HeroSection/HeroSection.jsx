@@ -1,7 +1,6 @@
-import React from 'react';
-import '../Home.css'
-import heroImg from '../../../images/herosec-bg.svg'
 import { Box } from '@mui/system';
+import React from 'react';
+import '../Home.css';
 
 const HeroSection = () => {
     return (
