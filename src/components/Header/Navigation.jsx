@@ -11,10 +11,10 @@ import PropTypes from "prop-types";
 import * as React from "react";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
+import discord from '../../images/discord-icon.svg';
 import logo from "../../images/logo.svg";
-import twitter from '../../images/twitter-icon.svg'
-import discord from '../../images/discord-icon.svg'
-import teligram from '../../images/teligram-icon.svg'
+import teligram from '../../images/teligram-icon.svg';
+import twitter from '../../images/twitter-icon.svg';
 import "./Header.css";
 
 // navbar
@@ -46,7 +46,6 @@ function Navigation(props) {
         </NavHashLink>
         <Divider />
 
-        <Divider />
         <NavHashLink smooth="true" className="nav-link" to="/home#leaderBoard">
           Leader board
         </NavHashLink>
@@ -58,6 +57,17 @@ function Navigation(props) {
         </NavHashLink>
 
         <Divider />
+        <Button sx={{
+                      backgroundColor:
+                        "linear-gradient(270deg, #885BFF 0.19%, #5977D6 100%)",
+                      borderRadius: 50,
+                      marginLeft: 3,
+                      mt:4,
+                      textTransform: "inherit",
+                    }}
+                    variant="contained">
+                    Back to GEMS
+          </Button>
       </nav>
     </Box>
   );
@@ -70,7 +80,7 @@ function Navigation(props) {
       <CssBaseline />
       <AppBar
         position="inherit"
-        sx={{ bgcolor: "rgba(29, 29, 55, 0.7)", boxShadow: 2, py: 1 }}
+        sx={{ bgcolor: "rgba(29, 29, 55, 0.6)", boxShadow: 2, py: 1 }}
       >
         <Toolbar>
           {/* desktop menu  */}
@@ -88,7 +98,7 @@ function Navigation(props) {
                   <img className="logo" src={logo} alt="" />
                 </Link>
                    {/* social links  */}
-                <Box sx={{display: 'flex', alignItems: 'center', gap:2}}>
+                <Box sx={{display: {xs: 'none', md: 'flex'}, alignItems: 'center', gap:2}}>
                   <Box sx={{backgroundColor:'#6A8EFF', padding:1, borderRadius:50, width:30, height:30, lineHeight:'10px', textAlign: 'center'}}>
                     <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                       <img src={twitter} alt="" />

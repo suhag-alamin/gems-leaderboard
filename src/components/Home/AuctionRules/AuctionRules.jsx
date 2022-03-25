@@ -4,7 +4,7 @@ import React from 'react';
 
 const AuctionRules = () => {
     return (
-        <div>
+        <div id='rules'>
              <Container sx={{py:6}}>
                 <Typography sx={{fontSize:18, fontWeight:700, mb:2}} variant='h3'>Auction Rules</Typography>
                 {/* lists  */}

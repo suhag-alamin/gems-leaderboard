@@ -19,7 +19,7 @@ const NFTLeaderboard = () => {
   };
 
     return (
-      <div>
+      <div id='leaderBoard'>
           <Container sx={{py:6}}>
                 <Typography sx={{fontSize:28, textAlign: 'center', fontWeight:700, mb:6}} variant='h3'>GEMS NFT Leaderboard</Typography>
                   <Box sx={{ width: '100%', typography: 'body1' }}>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const DetailsOfPrizes = () => {
     return (
-        <div>
+        <div id='prizes'>
             <Container sx={{py:6}}>
                 <Typography sx={{fontSize:18, fontWeight:700, mb:2}} variant='h3'>Details of Prizes</Typography>
                 {/* lists  */}
