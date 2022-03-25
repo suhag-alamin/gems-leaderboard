@@ -3,3 +3,16 @@
   background-size: cover;
   padding-bottom: 250px;
 }
+
+.level-description {
+  background: url(../../images/box.svg) center center no-repeat;
+  background-size: cover;
+  padding: 50px 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .level-description {
+    padding: 30px 0px;
+    margin-top: 30px;
+  }
+}
