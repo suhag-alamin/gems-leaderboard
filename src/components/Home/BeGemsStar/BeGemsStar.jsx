@@ -1,7 +1,7 @@
 import { Container, Typography } from '@mui/material';
 import React from 'react';
 
-const BeGemsStart = () => {
+const BeGemsStar = () => {
     return (
         <div>
            <Container sx={{py:6, textAlign: 'center'}}>
@@ -17,4 +17,4 @@ const BeGemsStart = () => {
     );
 };
 
-export default BeGemsStart;
+export default BeGemsStar;

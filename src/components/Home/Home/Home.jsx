@@ -1,13 +1,13 @@
 import React from 'react';
-import BeGemsStart from '../BeGemsStart/BeGemsStart';
+import BeGemsStar from '../BeGemsStar/BeGemsStar';
 import HeroSection from '../HeroSection/HeroSection';
-import '../Home.css'
+import '../Home.css';
 
 const Home = () => {
     return (
         <div>
             <HeroSection />
-            <BeGemsStart />
+            <BeGemsStar />
         </div>
     );
 };
