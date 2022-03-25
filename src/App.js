@@ -12,6 +12,7 @@ import Home from "./components/Home/Home/Home";
 
 const theme = createTheme({
   palette: {
+    mode: "dark",
     primary: {
       main: "#885BFF",
     },
