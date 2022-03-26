@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <div className="hero-section">
             {/* hero section  */}
-            <Box sx={{height:'100vh'}}></Box>
+            <Box sx={{height:{xs: '20vh', md: '100vh'}}}></Box>
         </div>
     );
 };

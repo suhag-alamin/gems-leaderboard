@@ -32,7 +32,7 @@ const WalletTable = () => {
         <div>
             <Container sx={{py:6}}>
                 <TableContainer component={Paper}>
-                    <Table sx={{ minWidth: 650, backgroundColor: '#1f1a6b', padding:10 }} aria-label="simple table">
+                    <Table sx={{ minWidth: 350, backgroundColor: '#1f1a6b', padding:10 }} aria-label="simple table">
                         <TableHead sx={{bgcolor: '#1e33a1', borderRadius:'50px !important', boxShadow:3}}>
                             <TableRow>
                                 <TableCell>Time</TableCell>

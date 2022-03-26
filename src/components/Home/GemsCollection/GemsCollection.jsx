@@ -13,17 +13,17 @@ const GemsCollection = () => {
         <div>
             <Container sx={{py:8}}>
                 <Box sx={{ flexGrow: 1 }}>
-                    <Grid sx={{  textAlign: 'center'}} container spacing={{ xs: 2, md: 3 }} columns={{ xs: 2, sm: 8, md: 12 }}>
+                    <Grid sx={{  textAlign: 'center'}} container spacing={{ xs: 4, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                         <Grid item xs={2} sm={4} md={3} >
                             <img src={gems1} alt="" />
                         </Grid>
-                        <Grid sx={{marginTop: {xs: 0, md: -7}}} item xs={2} sm={4} md={3} >
+                        <Grid sx={{marginTop: {xs: -5, md: -7}}} item xs={2} sm={4} md={3} >
                             <img src={gems2} alt="" />
                         </Grid>
                         <Grid item xs={2} sm={4} md={3} >
                             <img src={gems3} alt="" />
                         </Grid>
-                        <Grid sx={{marginTop: {xs: 0, md: -7}}} item xs={2} sm={4} md={3} >
+                        <Grid sx={{marginTop: {xs: -5, md: -7}}} item xs={2} sm={4} md={3} >
                             <img src={gems4} alt="" />
                         </Grid>
                     </Grid>

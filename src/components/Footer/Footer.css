@@ -1,8 +1,25 @@
 .footer {
   background: #1d1d37;
+  position: relative;
 }
 .footer-link {
   color: #fff;
   display: block;
   margin-bottom: 20px;
+}
+
+#back-to-top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -25px;
+  background: #eaeaea3d;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  cursor: pointer;
 }

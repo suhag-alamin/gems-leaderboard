@@ -58,8 +58,7 @@ function Navigation(props) {
 
         <Divider />
         <Button sx={{
-                      backgroundColor:
-                        "linear-gradient(270deg, #885BFF 0.19%, #5977D6 100%)",
+                      backgroundColor:"linear-gradient(270deg, #885BFF 0.19%, #5977D6 100%) !important",
                       borderRadius: 50,
                       marginLeft: 3,
                       mt:4,
@@ -163,8 +162,7 @@ function Navigation(props) {
                   </NavHashLink>
                   <Button
                     sx={{
-                      backgroundColor:
-                        "linear-gradient(270deg, #885BFF 0.19%, #5977D6 100%)",
+                      backgroundColor:"linear-gradient(270deg, #885BFF 0.19%, #5977D6 100%) !important",
                       borderRadius: 50,
                       marginLeft: 3,
                       textTransform: "inherit",

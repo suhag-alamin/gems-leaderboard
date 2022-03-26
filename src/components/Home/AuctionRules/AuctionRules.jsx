@@ -6,7 +6,7 @@ const AuctionRules = () => {
     return (
         <div id='rules'>
              <Container sx={{py:6}}>
-                <Typography sx={{fontSize:18, fontWeight:700, mb:2}} variant='h3'>Auction Rules</Typography>
+                <Typography sx={{fontSize:18, fontWeight:700, mb:2, textAlign: {xs:'center', md: 'left'} }} variant='h3'>Auction Rules</Typography>
                 {/* lists  */}
                 <Box sx={{px:3}}>
                     <ul>

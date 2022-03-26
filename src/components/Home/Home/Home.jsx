@@ -11,7 +11,7 @@ import WalletTable from '../WalletTable/WalletTable';
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <HeroSection />
             <BeGemsStar />
             <Event />

@@ -17,11 +17,11 @@ const HeaderTop = () => {
             textAlign: "center",
           }}
         >
-          <Typography variant="subtitle1">
+          <Typography sx={{fontSize: {xs:13,md:16, }}} variant="subtitle1">
             Official Wallet Address for GEMS NFT Leaderboard
           </Typography>
           <Typography
-            sx={{ backgroundColor: "#968ff0", px: 2, borderRadius: 50 }}
+            sx={{ backgroundColor: "#968ff0", px: 2, borderRadius: 50, fontSize: {xs:12, md:16} }}
             variant="subtitle1"
           >
             02XK469976DXZ00174CAE43007218

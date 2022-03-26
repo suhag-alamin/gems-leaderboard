@@ -5,7 +5,7 @@ const DetailsOfPrizes = () => {
     return (
         <div id='prizes'>
             <Container sx={{py:6}}>
-                <Typography sx={{fontSize:18, fontWeight:700, mb:2}} variant='h3'>Details of Prizes</Typography>
+                <Typography sx={{fontSize:18, fontWeight:700, mb:2, textAlign: {xs:'center', md: 'left'}}} variant='h3'>Details of Prizes</Typography>
                 {/* lists  */}
                 <Box sx={{px:3}}>
                     <ul>
