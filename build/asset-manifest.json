@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44aac268.css",
+    "main.js": "/static/js/main.3d592e77.js",
+    "static/js/787.6d2c2df0.chunk.js": "/static/js/787.6d2c2df0.chunk.js",
+    "static/media/background.svg": "/static/media/background.b1f376102315e760652b.svg",
+    "static/media/herosec-bg.svg": "/static/media/herosec-bg.fef81ec536ec37d5fc03.svg",
+    "static/media/GEMS02.svg": "/static/media/GEMS02.c7671bd3f4f93d0855be0a2aed816fde.svg",
+    "static/media/GEMS03.svg": "/static/media/GEMS03.100a08ebbf55d0cdedc0c501d6f74b04.svg",
+    "static/media/GEMS04.svg": "/static/media/GEMS04.5672b4097953912e3860334087c7f8cb.svg",
+    "static/media/GEMS01-2.svg": "/static/media/GEMS01-2.3be2692d9df8526bd3b802de92680575.svg",
+    "static/media/GEMS01.svg": "/static/media/GEMS01.f2ee81e041b42a197f581dec688c3535.svg",
+    "static/media/box.svg": "/static/media/box.b9a8b587f19a5fe635e1.svg",
+    "static/media/poppins-all-400-normal.woff": "/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
+    "static/media/poppins-all-500-normal.woff": "/static/media/poppins-all-500-normal.4716bc1dd9f51751d3ef.woff",
+    "static/media/poppins-all-700-normal.woff": "/static/media/poppins-all-700-normal.34a71a4b9d011ddf66e9.woff",
+    "static/media/poppins-devanagari-400-normal.woff2": "/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
+    "static/media/poppins-devanagari-700-normal.woff2": "/static/media/poppins-devanagari-700-normal.349ed9fa39221b45ae9a.woff2",
+    "static/media/poppins-devanagari-500-normal.woff2": "/static/media/poppins-devanagari-500-normal.f43b6ebf46ee6fba0555.woff2",
+    "static/media/logo.svg": "/static/media/logo.fe8e7242510e8c5148aa91beee85ad3d.svg",
+    "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-700-normal.woff2": "/static/media/poppins-latin-700-normal.d86662fe776dae29ea78.woff2",
+    "static/media/poppins-latin-500-normal.woff2": "/static/media/poppins-latin-500-normal.08491d3f7fe7ae88ef44.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
+    "static/media/poppins-latin-ext-500-normal.woff2": "/static/media/poppins-latin-ext-500-normal.b59bcdf2f050e663ca29.woff2",
+    "static/media/poppins-latin-ext-700-normal.woff2": "/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
+    "static/media/discord-icon.svg": "/static/media/discord-icon.7a7e39365174001d99acbfcdbd62a312.svg",
+    "static/media/twitter-icon.svg": "/static/media/twitter-icon.6a2fef1a5e5fe2c2937a5244be437613.svg",
+    "index.html": "/index.html",
+    "static/media/teligram-icon.svg": "/static/media/teligram-icon.c757e9a3754e2fe152e4c6388ab3a5eb.svg",
+    "main.44aac268.css.map": "/static/css/main.44aac268.css.map",
+    "main.3d592e77.js.map": "/static/js/main.3d592e77.js.map",
+    "787.6d2c2df0.chunk.js.map": "/static/js/787.6d2c2df0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44aac268.css",
+    "static/js/main.3d592e77.js"
+  ]
+}
